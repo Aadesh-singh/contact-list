@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/home.css">
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <h1> Updated Constact list</h1>
+        <ul>
+            <% for( let i of contact_list) { %> 
+                <li>
+                    <p><%= i.name %></p>
+                    <p><%= i.phone %></p>
+                </li>    
+            <% } %>
+        </ul>
+    </body>
+</html>

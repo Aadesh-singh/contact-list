@@ -1,0 +1,76 @@
+fieldset{
+    width: fit-content;
+}
+legend{
+    font-size: 1.4rem;
+}
+body{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin-top: 75px;
+}
+body>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: rgb(135, 88, 180);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 14px;
+}
+ul{
+    margin-right: 61px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li>div i{
+    background-color: black;
+    color: white;
+}
+li>div i:hover{
+    color: red;
+}
+li p{
+    margin: 10px;
+}
+
+input[type="text"]{
+    border: none;
+    border-bottom: 4px solid black;
+    margin-bottom: 4px;
+    padding: 5px;
+    border-right: 4px solid black;
+    font-size: 1rem;
+    width: 250px;
+}
+button{
+    padding: 4px 16px;
+}
+
+.mid-div{
+    margin-left: auto;
+    margin-right: 18px;
+    padding-left: 38px;
+}
+
+.mid-div i{
+    background: none;
+    color: black;
+}
+.mid-div i:hover{
+    color: yellow;
+}
